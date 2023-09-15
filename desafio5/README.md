@@ -27,11 +27,19 @@ Para a instalação do Nodejs: https://nodejs.org/en
 
 OBS: Foi utilizado a versão v18.16.0 do nodejs.
 
+Também foram utilizado dois dependencias para os teste: mocha(v10.2.0) e chai(v4.3.8)
+
+
 ---
 ### Executando o código
 
-Para executar os teste digite o seguinte comando:
+Para executar os teste digite os seguintes comandos:
 
+1. Para instalar as dependências:
+```
+npm install
+```
+2. Para executar os testes:
 ```
 npm test
 ```
